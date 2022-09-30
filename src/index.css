@@ -303,6 +303,17 @@ Form
   padding: 0.5rem;
   font-size: 1.2rem;
 }
+/*
+======
+Random Button
+======
+*/
+
+.random-button{
+  margin-top: 2rem;
+  text-align: center;
+}
+
 /* 
 ====== 
 Cocktail
@@ -312,6 +323,18 @@ Cocktail
 .cocktail-section {
   text-align: center;
 }
+
+.action-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.action-buttons .random-button{
+  margin-top: 0;
+}
+
 .drink {
   width: var(--smallWidth);
   max-width: var(--fullWidth);
